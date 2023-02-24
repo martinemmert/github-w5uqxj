@@ -1,7 +1,7 @@
 ---
 
-Astro.cookies.set('cookie', 'foo');
-//Astro.response.headers.set('Set-Cookie', 'foo=bar; Path=/;');
+Astro.cookies.set('cookie', 'foo', {path: "/"});
+// Astro.response.headers.set('Set-Cookie', 'foo=bar; Path=/;');
 
 ---
 
